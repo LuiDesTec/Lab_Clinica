@@ -8,13 +8,30 @@ namespace Entitie
 {
         class Paciente
         {
-        private int Codigo { get; set; }
-        private string Nome { get; set; }
-        private string Endereco { get; set; }
-        private int Cep { get; set; }
-        private int Telefone { get; set; }
-        private int DataNacimento { get; set; }
+        public int Codigo { get; private set; }
+        public string Nome { get; set; }
+        public string Endereco { get; set; }
+        public int Cep { get; set; }
+        public string Telefone { get; set; }
+        public string DataNacimento { get; set; }
         
+        
+        public Paciente(int v)
+        {
+
+        }
+        public Paciente(int codigo, string nome, string endereco, string telefone, string datanascimento)
+        {
+            this.Codigo = codigo;
+            this.Nome = nome;
+            this.Endereco = endereco;
+            this.Telefone = telefone;
+            this.Telefone = datanascimento;
+           
+                
+        }
+        
+
         public void SetCadastrar()
         {
 

@@ -8,8 +8,8 @@ namespace Entitie
 {
     class PedidoDeExame
     {
-        private int codigo { get; set; }
-        private Convenio Convenio  { get; set; }
+        private int Codigo { get; set; }
+        private TipoDeRequisicao Tipo { get; set; }
         public Medico Medico { get; set; }
     }
 }
