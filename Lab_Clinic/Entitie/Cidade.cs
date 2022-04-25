@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_Clinic.Entitie
+namespace Entitie
 {
     internal class Cidade
     {

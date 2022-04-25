@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_Clinic.Entitie
+namespace Entitie
 {
-    internal class PedidoDeExame
+    class PedidoDeExame
     {
         private int codigo { get; set; }
+        private Convenio Convenio  { get; set; }
+        public Medico Medico { get; set; }
     }
 }

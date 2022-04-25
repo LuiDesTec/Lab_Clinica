@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_Clinic.Entitie
+namespace Entitie
 {
-    internal class Convenio
+   class Convenio
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
+       
+
+
     }
 }
