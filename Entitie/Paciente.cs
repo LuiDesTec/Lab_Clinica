@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Lab_Clinic;
+using Entitie;
 
 namespace Entitie
 {
@@ -13,10 +13,11 @@ namespace Entitie
         public string Endereco { get; set; }
         public int Cep { get; set; }
         public string Telefone { get; set; }
+        public string DataNascimento { get; }
         public string DataNacimento { get; set; }
         
         
-        public Paciente(int v)
+        public Paciente()
         {
 
         }
@@ -26,7 +27,7 @@ namespace Entitie
             this.Nome = nome;
             this.Endereco = endereco;
             this.Telefone = telefone;
-            this.Telefone = datanascimento;
+            this.DataNascimento = datanascimento;
            
                 
         }

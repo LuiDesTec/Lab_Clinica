@@ -8,7 +8,13 @@ namespace Entitie
 {
     internal class Medico
     {   
-        public string CRM { get; set; }
+        public CRM CRM { get; set; }
         public string Nome { get; set; }
+
+        public Medico (CRM crm, string nome)
+        {
+            CRM = crm;
+            Nome = nome;
+        }
     }
 }
