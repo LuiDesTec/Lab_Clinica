@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Entitie
 {
-    internal class ExamePedidoExame
+     class ExamePedidoExame
     {
-        public int DataRealizacao { get; set; }
-        public int HorarioRealizacao { set; get; }
-        public int DataResultado { get; set; }
-        public int EntregaResultado { get; set; }
+        public string DataRealizacao { get; set; }
+        public string HorarioRealizacao { set; get; }
+        public string DataResultado { get; set; }
+        public string  EntregaResultado { get; set; }
         public double ValorExame { get; set; }
     }
+    
+
+
 }

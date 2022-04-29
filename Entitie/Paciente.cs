@@ -8,30 +8,38 @@ namespace Entitie
 {
         class Paciente
         {
+        
+
         public int Codigo { get; private set; }
         public string Nome { get; set; }
         public string Endereco { get; set; }
         public int Cep { get; set; }
         public string Telefone { get; set; }
-        public string DataNascimento { get; }
-        public string DataNacimento { get; set; }
+        public DateTime DataNascimento { get; set; }
+        
         
         
         public Paciente()
         {
 
         }
-        public Paciente(int codigo, string nome, string endereco, string telefone, string datanascimento)
+        public Paciente(int codigo, string nome, string endereco, string telefone, DateTime datanascimento)
         {
             this.Codigo = codigo;
             this.Nome = nome;
             this.Endereco = endereco;
             this.Telefone = telefone;
             this.DataNascimento = datanascimento;
+            
            
                 
         }
-        
+        public string GetIdade()
+        {
+            return DateTime.Now.Year - DataNascimento.Year + " years old";
+        }
+
+
 
         public void SetCadastrar()
         {

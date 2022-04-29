@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entitie
 {
-    internal class Cidade
+    public class Cidade
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }

@@ -46,6 +46,7 @@
     <Compile Include="Entitie\Cidade.cs" />
     <Compile Include="Entitie\Convenio.cs" />
     <Compile Include="Entitie\CRM.cs" />
+    <Compile Include="Entitie\Endereco.cs" />
     <Compile Include="Entitie\Exame.cs" />
     <Compile Include="Entitie\ExamePedidoExame.cs" />
     <Compile Include="Entitie\Grupo Exame.cs" />
