@@ -4,15 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entitie
+namespace Lab_Clinic.Entitie
 {
-    public class Cidade
+    internal class UF
     {
-        public int Codigo { get; set; }
+        public string Sigla { get; set; }
         public string Nome { get; set; }
-        public int DDD{ get; set; }
-        
-
-        
     }
 }

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entitie
 {
-     class Grupo_Exame
+     public class Grupo_Exame
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
     
-    public void SetCadastrar()
+        public void SetCadastrar()
         {
 
         }

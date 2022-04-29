@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entitie
 {
-    public class Cidade
+    internal class UF
     {
-        public int Codigo { get; set; }
+        public string Sigla { get; set; }
         public string Nome { get; set; }
-        public int DDD{ get; set; }
-        
-
-        
     }
 }

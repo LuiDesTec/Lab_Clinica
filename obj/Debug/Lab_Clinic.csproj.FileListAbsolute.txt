@@ -1,0 +1,8 @@
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\obj\Debug\Lab_Clinic.csproj.AssemblyReference.cache
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\obj\Debug\Lab_Clinic.csproj.SuggestedBindingRedirects.cache
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\obj\Debug\Lab_Clinic.csproj.CoreCompileInputs.cache
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\bin\Debug\Lab_Clinic.exe.config
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\bin\Debug\Lab_Clinic.exe
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\bin\Debug\Lab_Clinic.pdb
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\obj\Debug\Lab_Clinic.exe
+C:\Users\luide\OneDrive\Documentos\C#\Codigos V\Lab_Clinic\Lab_Clinic\obj\Debug\Lab_Clinic.pdb

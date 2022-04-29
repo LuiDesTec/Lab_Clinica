@@ -6,13 +6,25 @@ using System.Threading.Tasks;
 
 namespace Entitie
 {
-    public class Cidade
+     public class Grupo_Exame
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
-        public int DDD{ get; set; }
-        
+    
+    public void SetCadastrar()
+        {
 
-        
+        }
+
+        public void GetImprimirExames()
+        {
+
+        }
+
+
     }
+
+
+
+
 }
