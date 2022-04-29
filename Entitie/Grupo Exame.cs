@@ -11,7 +11,7 @@ namespace Entitie
         public int Codigo { get; set; }
         public string Nome { get; set; }
     
-    public void SetCadastrar()
+        public void SetCadastrar()
         {
 
         }
