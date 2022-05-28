@@ -8,6 +8,7 @@ namespace Entitie
 {
     class PedidoDeExame
     {
+<<<<<<< HEAD
         public int Codigo { get; private set; }
         public  TipoDeRequisicao Tipo { get; private set; }
         public Medico Medico { get; private set; }
@@ -26,5 +27,10 @@ namespace Entitie
             Paciente = paciente;
         }
 
+=======
+        private int codigo { get; set; }
+        private Convenio Convenio  { get; set; }
+        public Medico Medico { get; set; }
+>>>>>>> temp-branch
     }
 }

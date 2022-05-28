@@ -6,12 +6,20 @@ using Lab_Clinic.Entitie;
 
 namespace Entitie
 {
+<<<<<<< HEAD
      public class Grupo_Exame : IImprimir
+=======
+     class Grupo_Exame
+>>>>>>> temp-branch
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
     
+<<<<<<< HEAD
         public void SetCadastrar()
+=======
+    public void SetCadastrar()
+>>>>>>> temp-branch
         {
 
         }
@@ -21,10 +29,14 @@ namespace Entitie
 
         }
 
+<<<<<<< HEAD
         public void GetImprimir()
         {
             throw new NotImplementedException();
         }
+=======
+
+>>>>>>> temp-branch
     }
 
 

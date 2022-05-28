@@ -9,6 +9,7 @@ namespace Entitie
 {
         class Paciente
         {
+<<<<<<< HEAD
         
 
         public int Codigo { get; private set; }
@@ -41,6 +42,15 @@ namespace Entitie
 
 
 
+=======
+        private int Codigo { get; set; }
+        private string Nome { get; set; }
+        private string Endereco { get; set; }
+        private int Cep { get; set; }
+        private int Telefone { get; set; }
+        private int DataNacimento { get; set; }
+        
+>>>>>>> temp-branch
         public void SetCadastrar()
         {
 

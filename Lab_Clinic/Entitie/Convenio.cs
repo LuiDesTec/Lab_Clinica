@@ -7,6 +7,7 @@ namespace Entitie
 {
    class Convenio
     {
+<<<<<<< HEAD
         public int Codigo { get; private set; }
         public string Nome { get; private set; }
 
@@ -19,6 +20,12 @@ namespace Entitie
           
             Nome = nome;    
         }
+=======
+        public int Codigo { get; set; }
+        public string Nome { get; set; }
+       
+
+>>>>>>> temp-branch
 
     }
 
