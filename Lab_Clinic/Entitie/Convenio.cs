@@ -7,10 +7,20 @@ namespace Entitie
 {
    class Convenio
     {
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
-       
+        public int Codigo { get; private set; }
+        public string Nome { get; private set; }
 
+        public Convenio()
+        {
+           
+        }
+        public void SetNome( string nome)
+        {
+          
+            Nome = nome;    
+        }
 
     }
+
+    
 }

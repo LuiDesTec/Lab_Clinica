@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Lab_Clinic;
 using Entitie;
+using Lab_Clinic.Entitie;
 
 namespace Entitie
 {
@@ -12,8 +13,7 @@ namespace Entitie
 
         public int Codigo { get; private set; }
         public string Nome { get; set; }
-        public string Endereco { get; set; }
-        public int Cep { get; set; }
+        public Endereco Endereco { get; set; }
         public string Telefone { get; set; }
         public DateTime DataNascimento { get; set; }
         
@@ -23,7 +23,7 @@ namespace Entitie
         {
 
         }
-        public Paciente(int codigo, string nome, string endereco, string telefone, DateTime datanascimento)
+        public Paciente(int codigo, string nome, Endereco endereco, string telefone, DateTime datanascimento)
         {
             this.Codigo = codigo;
             this.Nome = nome;

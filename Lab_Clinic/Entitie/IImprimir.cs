@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entitie
+namespace Lab_Clinic.Entitie
 {
-    public class UF
+     interface IImprimir
     {
-        public string Sigla { get; set; }
-        public string Nome { get; set; }
+        void GetImprimir();
+        void SetCadastrar();
+        
     }
 }

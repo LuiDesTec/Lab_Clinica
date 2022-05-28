@@ -50,6 +50,7 @@
     <Compile Include="Entitie\Exame.cs" />
     <Compile Include="Entitie\ExamePedidoExame.cs" />
     <Compile Include="Entitie\Grupo Exame.cs" />
+    <Compile Include="Entitie\IImprimir.cs" />
     <Compile Include="Entitie\Medico.cs" />
     <Compile Include="Entitie\Paciente.cs" />
     <Compile Include="Entitie\PedidoDeExame.cs" />
